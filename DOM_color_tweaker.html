@@ -44,6 +44,7 @@
 	function clickHandler() {
 		// first color channel (red) gets darker every time button is clicked
 		box.style.backgroundColor = "rgb(" + (colorRed-=10) + ", 0, 0)";
+		console.log("Made it here.");
 
 		// ES6 equivalent using template string
 		//box.style.backgroundColor = `rgb( ${colorRed-=10}, 0, 0 )`;	
